@@ -57,11 +57,11 @@ def scissor():
     COMP_CHOICE=random_computer_choice() 
     result(USER_CHOICE,COMP_CHOICE) 
 
-button1 = tk.Button(text="       Rock It Ralph      ",bg="skyblue",command=rock)
+button1 = tk.Button(text="       Rock       ",bg="skyblue",command=rock)
 button1.grid(column=0,row=1)
-button2 = tk.Button(text="       Paper Tears     ",bg="pink",command=paper)
+button2 = tk.Button(text="       Paper      ",bg="pink",command=paper)
 button2.grid(column=0,row=2)
-button3 = tk.Button(text="      Scissor Cuts the Paper    ",bg="lightgreen",command=scissor)
+button3 = tk.Button(text="      Scissor     ",bg="lightgreen",command=scissor)
  button3.grid(column=0,row=3)
 
 window.mainloop()
