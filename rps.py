@@ -62,6 +62,6 @@ button1.grid(column=0,row=1)
 button2 = tk.Button(text="       Paper Tears     ",bg="pink",command=paper)
 button2.grid(column=0,row=2)
 button3 = tk.Button(text="      Scissor Cuts the Paper    ",bg="lightgreen",command=scissor)
-button3.grid(column=0,row=3)
+ button3.grid(column=0,row=3)
 
 window.mainloop()
